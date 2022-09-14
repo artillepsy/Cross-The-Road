@@ -1,25 +1,25 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 namespace Core.Observable
 {
-    public class Notifier<T> : MonoBehaviour
+    public abstract class Notifier<T> : MonoBehaviour
     {
-        private readonly List<IObserver<T>> _observers = new List<IObserver<T>>();
+        protected event Action<T> NotifyEvent;
 
         public void AddObserver(IObserver<T> observer)
         {
-            _observers.Add(observer);
+            NotifyEvent += observer.OnNotify;
         }
 
         public void RemoveObserver(IObserver<T> observer)
         {
-            _observers.Remove(observer);
+            NotifyEvent -= observer.OnNotify;
         }
 
         protected void NotifyObservers(T value)
         {
-            _observers.ForEach(o => o.OnNotify(value));
+            NotifyEvent?.Invoke(value);
         }
     }
 }

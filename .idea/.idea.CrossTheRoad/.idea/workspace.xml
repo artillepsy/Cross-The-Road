@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee9fb01-6e42-4604-a36e-b13d6af98d31" name="Default Changelist" comment="" />
+    <list default="true" id="1ee9fb01-6e42-4604-a36e-b13d6af98d31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TouchDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TouchDisplay.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shader Graphs_New Shader Graph.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shader Graphs_New Shader Graph.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/IInjectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/IInjectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InvokeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InvokeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D45E81-3E52-4A99-BFB7-A145158A7980/95/167a3198/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -15,20 +65,42 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TouchHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TouchRegister.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/Injectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/IInjectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InvokeData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/IObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IMovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/BindingsInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/Container.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/INotifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/IObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IMoementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Isnstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Installer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TouchRegisterInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/IMovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraUtils/IsometricCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraUtils/CameraHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/CameraInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TouchDisplay.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2EgYYb5YemOQLG41JFwPoI8Jiba" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +141,9 @@
       <updated>1663018747979</updated>
       <workItem from="1663018780797" duration="1033000" />
       <workItem from="1663078638301" duration="2252000" />
-      <workItem from="1663082069844" duration="4194000" />
+      <workItem from="1663082069844" duration="16644000" />
+      <workItem from="1663148219036" duration="5643000" />
+      <workItem from="1663156789472" duration="1199000" />
     </task>
     <servers />
   </component>
@@ -78,7 +152,25 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="119" key="RiderGenerateDialog" timestamp="1663091516325">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="598" y="119" key="RiderGenerateDialog/0.0.1536.834@0.0.1536.834" timestamp="1663091516325" />
   </component>
 </project>

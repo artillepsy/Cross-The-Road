@@ -8,32 +8,27 @@ namespace Core.TouchInput
 {
     public class TouchRegister : Notifier<TouchPhase>
     {
-        private Vector2 _touchBeganPos = Vector2.zero;
-        private Vector2 _touchCurrentPos = Vector2.zero;
         private bool _inputEnabled = true;
         private bool _touching = false;
-        private Camera _camera;
-    
-        public Vector2 GetDirection()
-        {
-            var beganPos = _camera.ScreenToWorldPoint(_touchBeganPos);
-            var currentPos = _camera.ScreenToWorldPoint(_touchCurrentPos);
-            return (beganPos - currentPos).normalized;
-        }
+
+        public Vector2 Direction => (CurrentScreenPos - StartScreenPos).normalized;
+        public Vector2 StartScreenPos { get; private set; } = Vector2.zero;
+
+        public Vector2 CurrentScreenPos { get; private set; } = Vector2.zero;
 
         private void Update()
         {
-            if (!_inputEnabled || Touch.activeFingers.Count == 0 || !_touching && TouchHelper.IsTouchingUI()) 
+            if (!_inputEnabled || Touch.activeTouches.Count == 0 || !_touching && TouchHelper.IsTouchingUI()) 
             {
                 _touching = false;    
                 return;
             }
-            _touchCurrentPos =  Touch.activeFingers[0].currentTouch.screenPosition;
+            CurrentScreenPos = Touch.activeTouches[0].screenPosition;
             
-            switch (Touch.activeFingers[0].currentTouch.phase)
+            switch (Touch.activeTouches[0].phase)
             {
                 case TouchPhase.Began: 
-                    _touchBeganPos = Touch.activeFingers[0].currentTouch.screenPosition;
+                    StartScreenPos = Touch.activeTouches[0].screenPosition;
                     _touching = true;
                     break;
                 case TouchPhase.Moved:
@@ -46,18 +41,13 @@ namespace Core.TouchInput
                 default:
                     return; // return
             }
-            NotifyObservers(Touch.activeFingers[0].currentTouch.phase);
+            NotifyObservers(Touch.activeTouches[0].phase);
         }
 
         private void Awake()
         {
             EnhancedTouchSupport.Enable();
-        }
-    
-        private void Start()
-        {
             Input.multiTouchEnabled = false;
-            _camera = Camera.main;
         }
     }
 }
