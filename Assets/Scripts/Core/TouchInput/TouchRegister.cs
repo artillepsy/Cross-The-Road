@@ -12,6 +12,7 @@ namespace Core.TouchInput
         private bool _touching = false;
 
         public Vector2 Direction => (CurrentScreenPos - StartScreenPos).normalized;
+        
         public Vector2 StartScreenPos { get; private set; } = Vector2.zero;
 
         public Vector2 CurrentScreenPos { get; private set; } = Vector2.zero;

@@ -931,6 +931,9 @@
           <e p="Core" t="Include">
             <e p="DependencyInjection" t="Include">
               <e p="CameraInstaller.cs" t="Include" />
+              <e p="EnemyFabricInstaller.cs" t="Include" />
+              <e p="EnemyMovementManagerInstaller.cs" t="Include" />
+              <e p="PlayerComponentsInstaller.cs" t="Include" />
               <e p="TouchRegisterInstaller.cs" t="Include" />
             </e>
             <e p="Observable" t="Include">
@@ -942,7 +945,17 @@
               <e p="TouchRegister.cs" t="Include" />
             </e>
           </e>
+          <e p="EnemyRoad" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="EnemyFabric.cs" t="Include" />
+            <e p="EnemyMovementManager.cs" t="Include" />
+            <e p="EnemyRoad.cs" t="Include" />
+            <e p="EnemySpawnData.cs" t="Include" />
+            <e p="EnemySpawnSettings.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
+            <e p="PlayerComponents.cs" t="Include" />
+            <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerMovementController.cs" t="Include" />
           </e>
           <e p="UI" t="Include">

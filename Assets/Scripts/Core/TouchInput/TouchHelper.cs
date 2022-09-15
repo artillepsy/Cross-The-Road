@@ -19,16 +19,5 @@ namespace Core.TouchInput
             EventSystem.current.RaycastAll(data, results);
             return results.Count > 0;
         }
-
-        /*public static Vector3 GetIsometricTouchCoordinates(Vector2 screenDirection, Transform cameraTransform)
-        {
-            var rotationY = cameraTransform.rotation.eulerAngles.y;
-
-            var rotatedMatrix = Matrix4x4.Rotate(Quaternion.Euler(0, rotationY, 0));
-            var rotatedDirection = rotatedMatrix.MultiplyPoint3x4(screenDirection);
-            //var relative = ()
-            return Vector3.back;
-
-        }*/
     }
 }

@@ -4,10 +4,14 @@ using Zenject;
 
 public class TouchRegisterInstaller : MonoInstaller
 {
-    [SerializeField] private TouchRegister touchRegisterInstance;
+    [SerializeField] private Transform singletonsParent;
+    [SerializeField] private TouchRegister touchRegisterPrefab;
     
     public override void InstallBindings()
     {
-        Container.Bind<TouchRegister>().FromInstance(touchRegisterInstance).AsSingle().NonLazy();
+        var instance = Container.InstantiatePrefabForComponent<TouchRegister>(
+            touchRegisterPrefab, Vector3.zero, Quaternion.identity, singletonsParent);
+
+        Container.Bind<TouchRegister>().FromInstance(instance).AsSingle().NonLazy();
     }
 }

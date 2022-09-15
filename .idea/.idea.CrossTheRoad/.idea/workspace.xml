@@ -20,31 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee9fb01-6e42-4604-a36e-b13d6af98d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TouchDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TouchDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/PlayerComponentsInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/PlayerComponentsInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shader Graphs_New Shader Graph.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shader Graphs_New Shader Graph.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/IInjectable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/IInjectable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InvokeData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InvokeData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +60,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/22/a269b7f8/IObserver`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D45E81-3E52-4A99-BFB7-A145158A7980/95/167a3198/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Materials/HDRShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TouchHelper.cs" />
@@ -74,8 +80,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/BindingsInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/Container.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/INotifier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/IObserver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IMoementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
@@ -88,12 +92,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/IMovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraUtils/IsometricCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraUtils/CameraHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/CameraInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TouchDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/Notifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/ObjectPoolInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/AbstractFabric.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemiesPoolInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemiesFabricInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/IObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/PlayerComponentsInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +167,8 @@
       <workItem from="1663078638301" duration="2252000" />
       <workItem from="1663082069844" duration="16644000" />
       <workItem from="1663148219036" duration="5643000" />
-      <workItem from="1663156789472" duration="1199000" />
+      <workItem from="1663156789472" duration="5774000" />
+      <workItem from="1663166922576" duration="16540000" />
     </task>
     <servers />
   </component>
@@ -172,5 +197,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="598" y="119" key="RiderGenerateDialog/0.0.1536.834@0.0.1536.834" timestamp="1663091516325" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1663234616812">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1663234616812" />
   </component>
 </project>

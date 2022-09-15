@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Core.Observable;
 using Core.TouchInput;
 using UnityEngine;
 using Zenject;
@@ -6,20 +7,26 @@ using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 
 namespace Player
 {
-    public class PlayerMovementController : MonoBehaviour, Core.Observable.IObserver<TouchPhase>
+    public class PlayerMovementController : MonoBehaviour, IObserver<TouchPhase>
     {
         [SerializeField] private float speed = 5f;
-        [SerializeField] private float rotationAngles = 200f;
+        [SerializeField] private float rotationAngles = 400f;
         [SerializeField] private bool drawGizmos = true;
+        
         private Quaternion _rotateTo = Quaternion.identity;
         private Vector3 _direction = Vector3.zero;
         private TouchRegister _touchRegister;
-        private Rigidbody _rb;
+        private WaitForFixedUpdate _waitForFixedUpdate;
         private Coroutine _moveCo;
+        private Rigidbody _rb;
         private Camera _cam;
 
         [Inject]
-        public void Construct(TouchRegister register) => _touchRegister = register;
+        public void Construct(TouchRegister register, Camera cam)
+        {
+            _touchRegister = register;
+            _cam = cam;
+        }
 
         public void OnNotify(TouchPhase phase)
         {
@@ -39,13 +46,15 @@ namespace Player
             }
         }
 
-        private void Awake() => _rb = GetComponent<Rigidbody>();
+        private void Awake()
+        {
+            _waitForFixedUpdate = new WaitForFixedUpdate();
+            _rb = GetComponent<Rigidbody>();
+        }
 
         private void OnEnable() => _touchRegister.AddObserver(this);
 
         private void OnDisable() => _touchRegister.RemoveObserver(this);
-
-        private void Start() => _cam = Camera.main;
 
         private void UpdateDirectionAndRotation()
         {
@@ -59,13 +68,17 @@ namespace Player
             _direction = Quaternion.Euler(0, -rotationY, 0) * _direction;
             _rotateTo = Quaternion.LookRotation(_direction, Vector3.up);
         }
+        
         private IEnumerator MoveCo()
         {
             while (true)
             {
-                Rotate();
-                Move();
-                yield return new WaitForFixedUpdate();
+                if (_touchRegister.Direction != Vector2.zero)
+                {
+                    Rotate();
+                    Move();
+                }
+                yield return _waitForFixedUpdate;
             }
         }
 
@@ -77,9 +90,6 @@ namespace Player
 
         private void Move()
         {
-            if (_touchRegister.Direction == Vector2.zero)
-                return;
-            
             _rb.MovePosition(transform.position + transform.forward * (speed * Time.fixedDeltaTime));
         }
 
