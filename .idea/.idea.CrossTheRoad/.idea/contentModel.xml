@@ -945,13 +945,24 @@
               <e p="TouchRegister.cs" t="Include" />
             </e>
           </e>
-          <e p="EnemyRoad" t="Include">
-            <e p="Enemy.cs" t="Include" />
-            <e p="EnemyFabric.cs" t="Include" />
-            <e p="EnemyMovementManager.cs" t="Include" />
-            <e p="EnemyRoad.cs" t="Include" />
-            <e p="EnemySpawnData.cs" t="Include" />
-            <e p="EnemySpawnSettings.cs" t="Include" />
+          <e p="Enemies" t="Include">
+            <e p="Components" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemyActiveStatusChanger.cs" t="Include" />
+              <e p="EnemyAttack.cs" t="Include" />
+              <e p="EnemyComponent.cs" t="Include" />
+              <e p="EnemyMovement.cs" t="Include" />
+            </e>
+            <e p="Movement" t="Include">
+              <e p="EnemyMovementManager.cs" t="Include" />
+              <e p="EnemyPath.cs" t="Include" />
+              <e p="EnemySpawner.cs" t="Include" />
+            </e>
+            <e p="Spawn" t="Include">
+              <e p="EnemyFabric.cs" t="Include" />
+              <e p="EnemySpawnData.cs" t="Include" />
+              <e p="EnemySpawnSettings.cs" t="Include" />
+            </e>
           </e>
           <e p="Player" t="Include">
             <e p="PlayerComponents.cs" t="Include" />

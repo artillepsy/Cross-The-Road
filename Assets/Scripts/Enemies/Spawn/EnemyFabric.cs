@@ -1,21 +1,27 @@
-﻿using UnityEngine;
+﻿using Enemies.Components;
+using UnityEngine;
 using UnityEngine.Pool;
 using Zenject;
 
-namespace EnemyRoad
+namespace Enemies.Spawn
 {
     public class EnemyFabric : MonoBehaviour
     {
         [SerializeField] private Transform enemiesParent;
         [SerializeField] private Enemy enemyPrefab;
-        private ObjectPool<Enemy> _pool;
+        public ObjectPool<Enemy> Pool { get; private set; }
         private DiContainer _container;
         
         [Inject]
         public void Construct(DiContainer container) => _container = container;
 
         // parameters for spawn
-        public void Spawn(in EnemySpawnData data) => _pool.Get().SetData(data, _pool);
+        public void Spawn(EnemySpawnData data)
+        {
+            var instance = Pool.Get();
+            data.EnemyRef = instance;
+            instance.SetData(data);
+        }
 
         private Enemy CreateEnemy() => _container.InstantiatePrefabForComponent<Enemy>(enemyPrefab, enemiesParent);
 
@@ -25,7 +31,7 @@ namespace EnemyRoad
 
         private void Awake()
         {
-            _pool = new ObjectPool<Enemy>(CreateEnemy, OnGetEnemyFromPool, OnReturnEnemyToPool);
+            Pool = new ObjectPool<Enemy>(CreateEnemy, OnGetEnemyFromPool, OnReturnEnemyToPool);
         }
     }
 }

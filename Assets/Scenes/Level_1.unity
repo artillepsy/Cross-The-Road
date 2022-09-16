@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Follow: {fileID: 884079816}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 9.74
+    OrthographicSize: 13.83
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -424,7 +424,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.74
+  orthographic size: 13.83
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -930,6 +930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742522142}
   - component: {fileID: 742522141}
+  - component: {fileID: 742522144}
   - component: {fileID: 742522143}
   m_Layer: 0
   m_Name: EnemyRoad
@@ -953,7 +954,6 @@ MonoBehaviour:
   startCorner: {fileID: 1327026914}
   endCorner: {fileID: 1087468286}
   drawGizmos: 1
-  enemySpawnSettings: {fileID: 11400000, guid: e4df7b5d626bf7b4cac11b5dde1772c0, type: 2}
 --- !u!4 &742522142
 Transform:
   m_ObjectHideFlags: 0
@@ -987,6 +987,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &742522144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742522140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462750a7e1e9487bbd0a388c4e31fffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: {fileID: 742522141}
+  enemySpawnSettings: {fileID: 11400000, guid: e4df7b5d626bf7b4cac11b5dde1772c0, type: 2}
 --- !u!1 &758137059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087468285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.12, y: 0, z: 2.03}
+  m_LocalPosition: {x: -9.05, y: 0, z: -2.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1416,7 +1430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327026913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.15, y: 0, z: 0}
+  m_LocalPosition: {x: 10.89, y: 0, z: 1.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

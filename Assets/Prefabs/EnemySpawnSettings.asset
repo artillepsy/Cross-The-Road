@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: EnemySpawnSettings
   m_EditorClassIdentifier: 
   enemySpeed: 3
-  minSpawnRateSec: 1
-  maxSpawnRateSec: 2
-  simulatedTime: 60
+  minSpawnRateSec: 0.8
+  maxSpawnRateSec: 3.14

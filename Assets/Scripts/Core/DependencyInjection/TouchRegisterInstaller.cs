@@ -2,16 +2,19 @@
 using UnityEngine;
 using Zenject;
 
-public class TouchRegisterInstaller : MonoInstaller
+namespace Core.DependencyInjection
 {
-    [SerializeField] private Transform singletonsParent;
-    [SerializeField] private TouchRegister touchRegisterPrefab;
-    
-    public override void InstallBindings()
+    public class TouchRegisterInstaller : MonoInstaller
     {
-        var instance = Container.InstantiatePrefabForComponent<TouchRegister>(
-            touchRegisterPrefab, Vector3.zero, Quaternion.identity, singletonsParent);
+        [SerializeField] private Transform singletonsParent;
+        [SerializeField] private TouchRegister touchRegisterPrefab;
+    
+        public override void InstallBindings()
+        {
+            var instance = Container.InstantiatePrefabForComponent<TouchRegister>(
+                touchRegisterPrefab, Vector3.zero, Quaternion.identity, singletonsParent);
 
-        Container.Bind<TouchRegister>().FromInstance(instance).AsSingle().NonLazy();
+            Container.Bind<TouchRegister>().FromInstance(instance).AsSingle().NonLazy();
+        }
     }
 }

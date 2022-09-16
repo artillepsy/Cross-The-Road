@@ -1,7 +1,7 @@
 ﻿using Core.Observable;
 using UnityEngine;
 
-namespace EnemyRoad
+namespace Enemies.Movement
 {
     public class EnemyMovementManager : Notifier<float>
     {

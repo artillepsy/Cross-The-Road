@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace EnemyRoad
+namespace Enemies.Spawn
 {
     [CreateAssetMenu(fileName = "EnemySpawnSettings")]
     public class EnemySpawnSettings : ScriptableObject

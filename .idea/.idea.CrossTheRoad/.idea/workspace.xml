@@ -20,36 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee9fb01-6e42-4604-a36e-b13d6af98d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/PlayerComponentsInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/PlayerComponentsInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerComponents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyActiveStatusChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyActiveStatusChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemySpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemySpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrossTheRoad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemySpawnSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemySpawnSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyFabricInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/EnemyMovementManagerInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DependencyInjection/TouchRegisterInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TouchInput/TouchRegister.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/Enemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/Enemy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemyFabric.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemyFabric.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemyMovementManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyMovementManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemyMovementManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemyPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemyPath.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemySpawnData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemySpawnData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemySpawnSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemySpawnSettings.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +64,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemyFabric.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861E23C6-7270-4A4A-8ECA-9C234AF0CAC5/22/a269b7f8/IObserver`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D45E81-3E52-4A99-BFB7-A145158A7980/95/167a3198/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Helpers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TouchHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TouchRegister.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/Injectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/IInjectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InvokeData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/InjectAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/DependencyInjector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IMovementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/BindingsInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Injection/Container.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Observable/INotifier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IMoementController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Isnstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TouchRegisterInstaller.cs" />
@@ -118,6 +106,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyFabric.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemySpawnSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRoad/EnemyRoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemyRoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyComponents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/IEnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/IDataSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/AbstractEnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/AbstractEnemyComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyActiveStatusChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemySpawnData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawn/EnemyFabric.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Components/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Movement/EnemyPath.cs" />
       </list>
     </option>
   </component>
@@ -168,7 +172,8 @@
       <workItem from="1663082069844" duration="16644000" />
       <workItem from="1663148219036" duration="5643000" />
       <workItem from="1663156789472" duration="5774000" />
-      <workItem from="1663166922576" duration="16540000" />
+      <workItem from="1663166922576" duration="20815000" />
+      <workItem from="1663353724326" duration="8264000" />
     </task>
     <servers />
   </component>
